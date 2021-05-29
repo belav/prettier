@@ -1,1 +1,5 @@
-function f1 /* f */() {}
+const blah = "one";
+
+doSomething(`one
+two
+three`);

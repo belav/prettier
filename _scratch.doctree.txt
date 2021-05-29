@@ -1,0 +1,66 @@
+[
+    [
+        group(
+            [
+                "",
+                "const",
+                [
+                    " ",
+                    group(
+                        [
+                            group(
+                                [
+                                    "blah",
+                                    "",
+                                    ""
+                                ]),
+                            " =",
+                            group(
+                                indent(
+                                    [
+                                        line,
+                                        ""one""
+                                    ]))
+                        ])
+                ],
+                indent(
+                    [
+                    ]),
+                ";"
+            ]),
+        hardline,
+        hardline,
+        [
+            [
+                "",
+                [
+                    "doSomething",
+                    "",
+                    ""
+                ],
+                "",
+                "",
+                "(",
+                [
+                    [
+                        {
+    "type": "line-suffix-boundary"
+},
+                        "`",
+                        [
+                            "one",
+                            hardline,
+                            "two",
+                            hardline,
+                            "three"
+                        ],
+                        "`"
+                    ]
+                ],
+                ")"
+            ],
+            ";"
+        ]
+    ],
+    hardline
+]

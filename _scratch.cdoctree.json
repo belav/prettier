@@ -1,0 +1,146 @@
+[
+    [
+        {
+            "type": "group",
+            "contents": [
+                "",
+                "const",
+                [
+                    " ",
+                    {
+                        "type": "group",
+                        "contents": [
+                            {
+                                "type": "group",
+                                "contents": [
+                                    "blah",
+                                    "",
+                                    ""
+                                ],
+                                "break": false
+                            },
+                            " =",
+                            {
+                                "type": "group",
+                                "contents": {
+                                    "type": "indent",
+                                    "contents": [
+                                        {
+                                            "type": "line"
+                                        },
+                                        "\"one\""
+                                    ]
+                                },
+                                "break": false
+                            }
+                        ],
+                        "break": false
+                    }
+                ],
+                {
+                    "type": "indent",
+                    "contents": []
+                },
+                ";"
+            ],
+            "break": false
+        },
+        {
+            "type": "concat",
+            "parts": [
+                {
+                    "type": "line",
+                    "hard": true
+                },
+                {
+                    "type": "break-parent"
+                }
+            ]
+        },
+        {
+            "type": "concat",
+            "parts": [
+                {
+                    "type": "line",
+                    "hard": true
+                },
+                {
+                    "type": "break-parent"
+                }
+            ]
+        },
+        [
+            [
+                "",
+                [
+                    "doSomething",
+                    "",
+                    ""
+                ],
+                "",
+                "",
+                "(",
+                {
+                    "type": "concat",
+                    "parts": [
+                        [
+                            {
+                                "type": "line-suffix-boundary"
+                            },
+                            "`",
+                            {
+                                "type": "concat",
+                                "parts": [
+                                    "one",
+                                    {
+                                        "type": "concat",
+                                        "parts": [
+                                            {
+                                                "type": "line",
+                                                "hard": true,
+                                                "literal": true
+                                            },
+                                            {
+                                                "type": "break-parent"
+                                            }
+                                        ]
+                                    },
+                                    "two",
+                                    {
+                                        "type": "concat",
+                                        "parts": [
+                                            {
+                                                "type": "line",
+                                                "hard": true,
+                                                "literal": true
+                                            },
+                                            {
+                                                "type": "break-parent"
+                                            }
+                                        ]
+                                    },
+                                    "three"
+                                ]
+                            },
+                            "`"
+                        ]
+                    ]
+                },
+                ")"
+            ],
+            ";"
+        ]
+    ],
+    {
+        "type": "concat",
+        "parts": [
+            {
+                "type": "line",
+                "hard": true
+            },
+            {
+                "type": "break-parent"
+            }
+        ]
+    }
+]

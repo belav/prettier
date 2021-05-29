@@ -1,0 +1,52 @@
+Doc.Concat(
+    Doc.Concat(
+        Doc.Group(
+            Doc.Concat(
+                "",
+                "const",
+                Doc.Concat(
+                    " ",
+                    Doc.Group(
+                        Doc.Concat(
+                            Doc.Group(
+                                Doc.Concat(
+                                    "blah",
+                                    "",
+                                    "")),
+                            " =",
+                            Doc.Group(
+                                Doc.Indent(
+                                    Doc.Concat(
+                                        Doc.Line,
+                                        ""one"")))))),
+                Doc.Indent(
+                    Doc.Concat()),
+                ";")),
+        Doc.HardLine,
+        Doc.HardLine,
+        Doc.Concat(
+            Doc.Concat(
+                "",
+                Doc.Concat(
+                    "doSomething",
+                    "",
+                    ""),
+                "",
+                "",
+                "(",
+                Doc.Concat(
+                    Doc.Concat(
+                        {
+    "type": "line-suffix-boundary"
+},
+                        "`",
+                        Doc.Concat(
+                            "one",
+                            Doc.LiteralLine,
+                            "two",
+                            Doc.LiteralLine,
+                            "three"),
+                        "`")),
+                ")"),
+            ";")),
+    Doc.HardLine)

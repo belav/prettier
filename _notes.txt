@@ -1,0 +1,8 @@
+prettier does move around some comments, see language-js/comments.js
+some comments are printed into the doc tree, some are not
+
+// ends up in doc tree
+if (true) {
+  return; // is not in doc tree?
+}
+

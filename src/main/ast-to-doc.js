@@ -1,5 +1,6 @@
 "use strict";
-
+const fs = require("fs");
+const path1 = require("path");
 const AstPath = require("../common/ast-path");
 const {
   builders: { hardline, addAlignmentToDoc },
@@ -7,6 +8,7 @@ const {
 } = require("../document");
 const { printComments } = require("./comments");
 const multiparser = require("./multiparser");
+const { printDocTree, printCDocTree } = require("./printDocTree")
 
 /**
  * Takes an abstract syntax tree (AST) and recursively converts it to a
@@ -46,6 +48,12 @@ function printAstToDoc(ast, options, alignmentSize = 0) {
     // It should be removed in index.js format()
     doc = addAlignmentToDoc([hardline, doc], alignmentSize, options.tabWidth);
   }
+
+  const docTree = printDocTree(doc, "");
+  const cDocTree = printCDocTree(doc,  "");
+  fs.writeFileSync(path1.join(__dirname, "../../_scratch.doctree.txt", ), docTree);
+  fs.writeFileSync(path1.join(__dirname, "../../_scratch.cdoctree.txt", ), cDocTree);
+  fs.writeFileSync(path1.join(__dirname, "../../_scratch.cdoctree.json", ), JSON.stringify(doc, null, 4));
 
   propagateBreaks(doc);
 
