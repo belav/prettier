@@ -6,3 +6,9 @@ if (true) {
   return; // is not in doc tree?
 }
 
+--debug-print-doc shows their debug print
+_docPrinter.js can be used to write tests
+
+run configurations can be used for format _scratch.x files, this allows debugging, and they are set up
+to spit out the doc tree into files.
+prettier-java requires some extra setup see src/languages.js

@@ -1,52 +1,182 @@
 Doc.Concat(
-    Doc.Concat(
-        Doc.Group(
-            Doc.Concat(
-                "",
-                "const",
+    Doc.Group(
+        Doc.Concat(
+            "[",
+            Doc.Indent(
                 Doc.Concat(
-                    " ",
-                    Doc.Group(
+                    Doc.SoftLine,
+                    Doc.Concat(
                         Doc.Concat(
+                            Doc.Concat(),
                             Doc.Group(
                                 Doc.Concat(
-                                    "blah",
                                     "",
-                                    "")),
-                            " =",
-                            Doc.Group(
-                                Doc.Indent(
                                     Doc.Concat(
-                                        Doc.Line,
-                                        ""one"")))))),
-                Doc.Indent(
-                    Doc.Concat()),
-                ";")),
-        Doc.HardLine,
-        Doc.HardLine,
-        Doc.Concat(
-            Doc.Concat(
-                "",
-                Doc.Concat(
-                    "doSomething",
-                    "",
-                    ""),
-                "",
-                "",
-                "(",
-                Doc.Concat(
-                    Doc.Concat(
-                        {
-    "type": "line-suffix-boundary"
+                                        "group",
+                                        "",
+                                        ""),
+                                    "",
+                                    "",
+                                    "",
+                                    Doc.Concat(
+                                        "",
+                                        Doc.Group(
+                                            Doc.Concat(
+                                                "(",
+                                                Doc.Concat(
+                                                    Doc.Group(
+                                                        Doc.Concat(
+                                                            "[",
+                                                            Doc.Indent(
+                                                                Doc.Concat(
+                                                                    Doc.SoftLine,
+                                                                    Doc.Concat(
+                                                                        Doc.Concat(
+                                                                            Doc.Concat(),
+                                                                            Doc.Group(
+                                                                                ""var""),
+                                                                            Doc.Concat(
+                                                                                ",",
+                                                                                Doc.Line),
+                                                                            Doc.Group(
+                                                                                "" ""),
+                                                                            Doc.Concat(
+                                                                                ",",
+                                                                                Doc.Line),
+                                                                            Doc.Group(
+                                                                                Doc.Concat(
+                                                                                    "",
+                                                                                    Doc.Concat(
+                                                                                        "group",
+                                                                                        "",
+                                                                                        ""),
+                                                                                    "",
+                                                                                    "",
+                                                                                    "",
+                                                                                    Doc.Concat(
+                                                                                        "",
+                                                                                        Doc.Group(
+                                                                                            Doc.Concat(
+                                                                                                "(",
+                                                                                                Doc.Concat(
+                                                                                                    Doc.Group(
+                                                                                                        Doc.Concat(
+                                                                                                            "[",
+                                                                                                            Doc.Indent(
+                                                                                                                Doc.Concat(
+                                                                                                                    Doc.SoftLine,
+                                                                                                                    Doc.Concat(
+                                                                                                                        Doc.Concat(
+                                                                                                                            Doc.Concat(),
+                                                                                                                            Doc.Group(
+                                                                                                                                Doc.Concat(
+                                                                                                                                    "",
+                                                                                                                                    Doc.Concat(
+                                                                                                                                        "group",
+                                                                                                                                        "",
+                                                                                                                                        ""),
+                                                                                                                                    "",
+                                                                                                                                    "",
+                                                                                                                                    "",
+                                                                                                                                    Doc.Group(
+                                                                                                                                        Doc.Concat(
+                                                                                                                                            "(",
+                                                                                                                                            Doc.Indent(
+                                                                                                                                                Doc.Concat(
+                                                                                                                                                    Doc.SoftLine,
+                                                                                                                                                    Doc.Concat(
+                                                                                                                                                        ""x""))),
+                                                                                                                                            {
+    "type": "if-break",
+    "breakContents": ""
 },
-                        "`",
-                        Doc.Concat(
-                            "one",
-                            Doc.LiteralLine,
-                            "two",
-                            Doc.LiteralLine,
-                            "three"),
-                        "`")),
-                ")"),
-            ";")),
-    Doc.HardLine)
+                                                                                                                                            Doc.SoftLine,
+                                                                                                                                            ")")))),
+                                                                                                                            Doc.Concat(
+                                                                                                                                ",",
+                                                                                                                                Doc.Line),
+                                                                                                                            Doc.Group(
+                                                                                                                                "" =""),
+                                                                                                                            Doc.Concat(
+                                                                                                                                ",",
+                                                                                                                                Doc.Line),
+                                                                                                                            Doc.Group(
+                                                                                                                                "" ""),
+                                                                                                                            Doc.Concat(
+                                                                                                                                ",",
+                                                                                                                                Doc.Line),
+                                                                                                                            Doc.Group(
+                                                                                                                                ""1"")),
+                                                                                                                        {
+    "type": "if-break",
+    "breakContents": ","
+}),
+                                                                                                                    "")),
+                                                                                                            Doc.SoftLine,
+                                                                                                            "]")),
+                                                                                                    "",
+                                                                                                    ""),
+                                                                                                ")"))))),
+                                                                            Doc.Concat(
+                                                                                ",",
+                                                                                Doc.Line),
+                                                                            Doc.Group(
+                                                                                Doc.Concat(
+                                                                                    "",
+                                                                                    Doc.Concat(
+                                                                                        "indent",
+                                                                                        "",
+                                                                                        ""),
+                                                                                    "",
+                                                                                    "",
+                                                                                    "",
+                                                                                    Doc.Group(
+                                                                                        Doc.Concat(
+                                                                                            "(",
+                                                                                            Doc.Indent(
+                                                                                                Doc.Concat(
+                                                                                                    Doc.SoftLine,
+                                                                                                    Doc.Concat(
+                                                                                                        Doc.Concat(
+                                                                                                            "[",
+                                                                                                            "]",
+                                                                                                            "",
+                                                                                                            "")))),
+                                                                                            {
+    "type": "if-break",
+    "breakContents": ""
+},
+                                                                                            Doc.SoftLine,
+                                                                                            ")")))),
+                                                                            Doc.Concat(
+                                                                                ",",
+                                                                                Doc.Line),
+                                                                            Doc.Group(
+                                                                                "";"")),
+                                                                        {
+    "type": "if-break",
+    "breakContents": ","
+}),
+                                                                    "")),
+                                                            Doc.SoftLine,
+                                                            "]")),
+                                                    "",
+                                                    ""),
+                                                ")"))))),
+                            Doc.Concat(
+                                ",",
+                                Doc.Line),
+                            Doc.Group(
+                                Doc.Concat(
+                                    "hardline",
+                                    "",
+                                    ""))),
+                        {
+    "type": "if-break",
+    "breakContents": ","
+}),
+                    "")),
+            Doc.SoftLine,
+            "]")),
+    "",
+    "")

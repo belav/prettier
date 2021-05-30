@@ -1,66 +1,228 @@
 [
-    [
-        group(
-            [
-                "",
-                "const",
+    group(
+        [
+            "[",
+            indent(
                 [
-                    " ",
-                    group(
+                    softlife,
+                    [
                         [
+                            [
+                            ],
                             group(
                                 [
-                                    "blah",
+                                    "",
+                                    [
+                                        "group",
+                                        "",
+                                        ""
+                                    ],
+                                    "",
+                                    "",
+                                    "",
+                                    [
+                                        "",
+                                        group(
+                                            [
+                                                "(",
+                                                [
+                                                    group(
+                                                        [
+                                                            "[",
+                                                            indent(
+                                                                [
+                                                                    softlife,
+                                                                    [
+                                                                        [
+                                                                            [
+                                                                            ],
+                                                                            group(
+                                                                                ""var""),
+                                                                            [
+                                                                                ",",
+                                                                                line
+                                                                            ],
+                                                                            group(
+                                                                                "" ""),
+                                                                            [
+                                                                                ",",
+                                                                                line
+                                                                            ],
+                                                                            group(
+                                                                                [
+                                                                                    "",
+                                                                                    [
+                                                                                        "group",
+                                                                                        "",
+                                                                                        ""
+                                                                                    ],
+                                                                                    "",
+                                                                                    "",
+                                                                                    "",
+                                                                                    [
+                                                                                        "",
+                                                                                        group(
+                                                                                            [
+                                                                                                "(",
+                                                                                                [
+                                                                                                    group(
+                                                                                                        [
+                                                                                                            "[",
+                                                                                                            indent(
+                                                                                                                [
+                                                                                                                    softlife,
+                                                                                                                    [
+                                                                                                                        [
+                                                                                                                            [
+                                                                                                                            ],
+                                                                                                                            group(
+                                                                                                                                [
+                                                                                                                                    "",
+                                                                                                                                    [
+                                                                                                                                        "group",
+                                                                                                                                        "",
+                                                                                                                                        ""
+                                                                                                                                    ],
+                                                                                                                                    "",
+                                                                                                                                    "",
+                                                                                                                                    "",
+                                                                                                                                    group(
+                                                                                                                                        [
+                                                                                                                                            "(",
+                                                                                                                                            indent(
+                                                                                                                                                [
+                                                                                                                                                    softlife,
+                                                                                                                                                    [
+                                                                                                                                                        ""x""
+                                                                                                                                                    ]
+                                                                                                                                                ]),
+                                                                                                                                            {
+    "type": "if-break",
+    "breakContents": ""
+},
+                                                                                                                                            softlife,
+                                                                                                                                            ")"
+                                                                                                                                        ])
+                                                                                                                                ]),
+                                                                                                                            [
+                                                                                                                                ",",
+                                                                                                                                line
+                                                                                                                            ],
+                                                                                                                            group(
+                                                                                                                                "" =""),
+                                                                                                                            [
+                                                                                                                                ",",
+                                                                                                                                line
+                                                                                                                            ],
+                                                                                                                            group(
+                                                                                                                                "" ""),
+                                                                                                                            [
+                                                                                                                                ",",
+                                                                                                                                line
+                                                                                                                            ],
+                                                                                                                            group(
+                                                                                                                                ""1"")
+                                                                                                                        ],
+                                                                                                                        {
+    "type": "if-break",
+    "breakContents": ","
+}
+                                                                                                                    ],
+                                                                                                                    ""
+                                                                                                                ]),
+                                                                                                            softlife,
+                                                                                                            "]"
+                                                                                                        ]),
+                                                                                                    "",
+                                                                                                    ""
+                                                                                                ],
+                                                                                                ")"
+                                                                                            ])
+                                                                                    ]
+                                                                                ]),
+                                                                            [
+                                                                                ",",
+                                                                                line
+                                                                            ],
+                                                                            group(
+                                                                                [
+                                                                                    "",
+                                                                                    [
+                                                                                        "indent",
+                                                                                        "",
+                                                                                        ""
+                                                                                    ],
+                                                                                    "",
+                                                                                    "",
+                                                                                    "",
+                                                                                    group(
+                                                                                        [
+                                                                                            "(",
+                                                                                            indent(
+                                                                                                [
+                                                                                                    softlife,
+                                                                                                    [
+                                                                                                        [
+                                                                                                            "[",
+                                                                                                            "]",
+                                                                                                            "",
+                                                                                                            ""
+                                                                                                        ]
+                                                                                                    ]
+                                                                                                ]),
+                                                                                            {
+    "type": "if-break",
+    "breakContents": ""
+},
+                                                                                            softlife,
+                                                                                            ")"
+                                                                                        ])
+                                                                                ]),
+                                                                            [
+                                                                                ",",
+                                                                                line
+                                                                            ],
+                                                                            group(
+                                                                                "";"")
+                                                                        ],
+                                                                        {
+    "type": "if-break",
+    "breakContents": ","
+}
+                                                                    ],
+                                                                    ""
+                                                                ]),
+                                                            softlife,
+                                                            "]"
+                                                        ]),
+                                                    "",
+                                                    ""
+                                                ],
+                                                ")"
+                                            ])
+                                    ]
+                                ]),
+                            [
+                                ",",
+                                line
+                            ],
+                            group(
+                                [
+                                    "hardline",
                                     "",
                                     ""
-                                ]),
-                            " =",
-                            group(
-                                indent(
-                                    [
-                                        line,
-                                        ""one""
-                                    ]))
-                        ])
-                ],
-                indent(
-                    [
-                    ]),
-                ";"
-            ]),
-        hardline,
-        hardline,
-        [
-            [
-                "",
-                [
-                    "doSomething",
-                    "",
-                    ""
-                ],
-                "",
-                "",
-                "(",
-                [
-                    [
-                        {
-    "type": "line-suffix-boundary"
-},
-                        "`",
-                        [
-                            "one",
-                            hardline,
-                            "two",
-                            hardline,
-                            "three"
+                                ])
                         ],
-                        "`"
-                    ]
-                ],
-                ")"
-            ],
-            ";"
-        ]
-    ],
-    hardline
+                        {
+    "type": "if-break",
+    "breakContents": ","
+}
+                    ],
+                    ""
+                ]),
+            softlife,
+            "]"
+        ]),
+    "",
+    ""
 ]

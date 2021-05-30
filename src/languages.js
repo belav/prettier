@@ -16,4 +16,9 @@ module.exports = [
   require("./language-html"),
   // YAML
   require("./language-yaml"),
+  // this requires prettier and prettier-java to be cloned into the same directory
+  // and also that you've run the setup
+  // commands that are in the contributing.md from prettier-java
+  // I'm not sure yet if you can debug into prettier-java from here
+  require("../../prettier-java/packages/prettier-plugin-java/src/index"),
 ];

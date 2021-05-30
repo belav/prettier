@@ -40,6 +40,8 @@ function printDocTree(doc, indent) {
       return indent + "breakParent";
     case "indent":
       return indent + "indent(\r\n" + printDocTree(doc.contents, indent + "    ") + ")";
+    case "align":
+      return indent + "align(\r\n" + printDocTree(doc.contents, indent + "    ") + ")";
     case "group":
       return indent + "group(\r\n" + printDocTree(doc.contents, indent + "    ") + ")";
     default:
@@ -88,8 +90,13 @@ function printCDocTree(doc, indent) {
       return indent + "breakParent";
     case "indent":
       return indent + "Doc.Indent(\r\n" + printCDocTree(doc.contents, indent + "    ") + ")";
+    case "align":
+      return indent + "Doc.Align(\r\n" + printCDocTree(doc.contents, indent + "    ") + ")";
     case "group":
       return indent + "Doc.Group(\r\n" + printCDocTree(doc.contents, indent + "    ") + ")";
+    case "indent-if-break":
+      // TODO this is missing the options that get passed
+      return indent + "Doc.IndentIfBreak(\r\n" + printCDocTree(doc.contents, indent + "    ") + ")";
     default:
       return indent + JSON.stringify(doc, null, 4);
     //throw new Error("Can't handle " + doc);

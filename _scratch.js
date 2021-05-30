@@ -1,5 +1,3 @@
-const blah = "one";
-
-doSomething(`one
-two
-three`);
+class Stuff {
+  public Value = someLongConditionnnnnnnnn ? "someLongValue" : "someOtherLongValue";
+}
